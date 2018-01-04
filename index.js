@@ -15,10 +15,9 @@ function johnLennonFacts(facts) {
     
     let i = 0
   while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`)
+    loudFacts.push(`${facts[i]}!!!`)
     i++
   }
-
-  return shoutedFacts
+  return loudFacts
 }
 
